@@ -154,11 +154,21 @@ body {
 	flex: 5%;
 	margin-left: 5%;
 	margin-right: 5%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    background-color: #202020;
+    border-radius: 5%;
 }
 
 .column-capt {
 	margin-left: 15%;
 	margin-right: 15%;
+}
+
+.column-co {
+    flex: 5%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .prod-img {
@@ -197,6 +207,8 @@ body {
     bottom: 0;
     height: 80px;
     margin-top: auto 0;
+    font-size: 12.5px;
+    margin-top: 3.5%;
 }
 
 .btn_main {
@@ -222,3 +234,12 @@ body {
 	-webkit-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 }
+
+.prod-tile {
+    text-decoration: none;
+    color: white;
+}
+
+.order_form [
+  color: red;
+]
